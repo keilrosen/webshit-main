@@ -177,7 +177,8 @@
             <div class="hire">
               <h2>Email me here, or use my socials (this is fastest)<br><br>What are you reaching out about?</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form action="https://formspree.io/f/{form_id}" method="post"
+                class="work-request">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="Tech Question">
@@ -255,6 +256,8 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
+                <button type="submit">Submit</button>
+              </form>
             </div>
           </li>
         </ul>
